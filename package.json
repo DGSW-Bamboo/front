@@ -1,0 +1,12 @@
+{
+  "name": "front",
+  "dependencies": {
+    "@types/react": "^17.0.14",
+    "react": "^17.0.2"
+  },
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ]
+}

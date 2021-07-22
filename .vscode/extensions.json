@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "dbaeumer.vscode-eslint",
+    "eliostruyf.vscode-typescript-exportallmodules",
+    "eamodio.gitlens",
+    "arcanis.vscode-zipfs",
+    "esbenp.prettier-vscode",
+    "jpoissonnier.vscode-styled-components",
+    "jcreamer.vscode-monorepo-tools"
+  ]
+}

@@ -1,0 +1,7 @@
+.eslintignore
+.gitignore
+.prettierignore
+.ebignore
+/.circleci/
+/assets/
+

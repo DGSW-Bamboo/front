@@ -1056,7 +1056,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-styled-components@npm:>= 1.12.0":
+"babel-plugin-styled-components@npm:>= 1.12.0, babel-plugin-styled-components@npm:^1.13.2":
   version: 1.13.2
   resolution: "babel-plugin-styled-components@npm:1.13.2"
   dependencies:
@@ -4534,7 +4534,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-is@npm:17.0.2":
+"react-is@npm:17.0.2, react-is@npm:^17.0.2":
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 3eff23f410d40ab9bc5177f147a92c7f42c356a21ecea340e0554566956d67e5e1ba56f26cc7fa22339ac3c7151744177bd6305eaa26d3cbf15f354358c9d9b6
@@ -5320,6 +5320,15 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"styled-normalize@npm:^8.0.7":
+  version: 8.0.7
+  resolution: "styled-normalize@npm:8.0.7"
+  peerDependencies:
+    styled-components: ^4.0.0 || ^5.0.0
+  checksum: e4b77af7b7263f0a416c73dbdda0deaefb7ea9db0ecfea78902740dfbb35f58f06196090e27418bbe0d8378189f8777e53b842810fcc5d51e9e55bb812baa90b
+  languageName: node
+  linkType: hard
+
 "stylis-rule-sheet@npm:0.0.10":
   version: 0.0.10
   resolution: "stylis-rule-sheet@npm:0.0.10"
@@ -5724,13 +5733,16 @@ typescript@^4.3.5:
     "@types/node": ^16.4.1
     "@types/react": 17.0.15
     "@types/styled-components": ^5.1.11
+    babel-plugin-styled-components: ^1.13.2
     eslint: 7.31.0
     eslint-config-next: 11.0.1
     next: ^11.0.1
     react: 17.0.2
     react-dom: 17.0.2
+    react-is: ^17.0.2
     recoil: ^0.3.1
     styled-components: ^5.3.0
+    styled-normalize: ^8.0.7
     typescript: ^4.3.5
   languageName: unknown
   linkType: soft
